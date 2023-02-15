@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task list</h1>
+        <div class="none" id="template">
+          <p class="texto"></p>
+          <button class="btn-1"></button>
+          <button class="btn-2"></button>
+          <button class="btn-3"></button>
+        </div>
+        <div class="flex-container">
+            <div class="TODO flex-column">
+                <div class="search">
+                    <form>
+                        <input class="1" type="text" placeholder="TO DO...">
+                        <button class="btn-add">+</button>
+                        <button class="btn-r">R</button>
+                    </form>
+                </div>
+                <div class="list-container">
+                    <ul>
+                    
+                    </ul>
+                </div>
+            </div>
+
+            <div class="progress flex-column">
+                <div class="search">
+                    <form>
+                        <input class="2" type="text" placeholder="TO BE PROGRESS...">
+                        <button class="btn-l">L</button>
+                        <button class="btn-r">R</button>
+                    </form>
+                </div>
+                <div class="list-container">
+                    <ul>
+                    
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tester flex-column">
+                <div class="search">
+                    <form>
+                        <input class="3" type="text" placeholder="TO BE TESTER...">
+                        <button class="btn-l">L</button>
+                        <button class="btn-r">R</button>
+                    </form>
+                </div>
+                <div class="list-container">
+                    <ul>
+                    
+                    </ul>
+                </div>
+            </div>
+
+            <div class="done flex-column">
+                <div class="search">
+                    <form>
+                        <input class="4" type="text" placeholder="DONE...">
+                        <button class="btn-l">L</button>
+                    </form>
+                </div>
+                <div class="list-container">
+                    <ul>
+                    
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
